@@ -19,4 +19,7 @@ Iniciar a execução com: `./gradlew run --debug-jvm`
 
 Criar indice:  
 `PUT {{elastic}}/my-index`  
-Entrypoint: `server/src/main/java/org/elasticsearch/rest/action/admin/indices/RestCreateIndexAction.java`
+Entrypoint: `server/src/main/java/org/elasticsearch/rest/action/admin/indices/RestCreateIndexAction.java`  
+`org/elasticsearch/action/support/master/TransportMasterNodeAction.java:150`  
+`org/elasticsearch/indices/cluster/IndicesClusterStateService.java:225`  
+`org/elasticsearch/indices/IndicesService.java:539`  
