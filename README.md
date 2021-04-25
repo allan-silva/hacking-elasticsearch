@@ -10,6 +10,13 @@ Alterar Senha dos usuários:
 
 `/home/allan-silva/code.allan/elasticsearch/distribution/archives/linux-tar/build/install/elasticsearch-8.0.0-SNAPSHOT/bin/elasticsearch-setup-passwords interactive`  
 
+
+DEBUG MODE:  
+
+Inciciar o deug server, pelo menu "Debug Elasticsearch"  
+Iniciar a execução com: `./gradlew run --debug-jvm`
+
+
 Criar indice:  
 `PUT {{elastic}}/my-index`  
-
+Entrypoint: `server/src/main/java/org/elasticsearch/rest/action/admin/indices/RestCreateIndexAction.java`
